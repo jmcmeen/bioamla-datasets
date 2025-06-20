@@ -10,7 +10,7 @@ This raw audio dataset contains 2822 wav/mp3 files collected from five locations
 This raw audio dataset contains 601 wav/mp3 files (600 hours) collected from five locations at Braulio Carillo National Park, Costa Rica from July 9th - 24th, 2024.
 
 # Licenses
-All metadata files in this repository contain licensing and attribution. The included license.py file generates a LICENSE.
+All metadata files in this repository contain licensing and attribution. The included license_generator.py file generates a LICENSE.
 - Parses CSV files with required fields: `file_name`, `attr_id`, `attr_lic`, `attr_url`, `attr_note`
 - Data validation and error handling
 - Whitespace cleaning and empty row handling
