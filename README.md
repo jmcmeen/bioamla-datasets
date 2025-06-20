@@ -22,22 +22,22 @@ All metadata files in this repository contain licensing and attribution. The inc
 
 **Basic usage:**
 ```bash
-python license_generator.py attributions.csv -o LICENSE.txt
+python license_generator.py metadata.csv -o LICENSE.txt
 ```
 
 **With template file:**
 ```bash
-python license_generator.py attributions.csv -o LICENSE.txt -t license_template.txt
+python license_generator.py metadata.csv -o LICENSE.txt -t license_template.txt
 ```
 
 **Preview CSV structure:**
 ```bash
-python license_generator.py attributions.csv -o LICENSE.txt --preview
+python license_generator.py metadata.csv -o LICENSE.txt --preview
 ```
 
 **Validate CSV only:**
 ```bash
-python license_generator.py attributions.csv -o LICENSE.txt --validate-only
+python license_generator.py metadata.csv -o LICENSE.txt --validate-only
 ```
 
 ## CSV Format:
