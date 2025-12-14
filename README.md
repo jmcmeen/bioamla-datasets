@@ -9,6 +9,25 @@ This raw audio dataset contains 2822 wav/mp3 files collected from five locations
 - [Braulio Carillo National Park/ La Selva Research Station, Costa Rica 2024](external/costa-rica-2024-raw/README) :
 This raw audio dataset contains 601 wav/mp3 files (600 hours) collected from five locations at Braulio Carillo National Park, Costa Rica from July 9th - 24th, 2024.
 
+# Push to Hugging Face Hub
+
+The `push.py` script uploads local datasets to the Hugging Face Hub.
+
+## Usage
+
+```bash
+python push.py <source> <destination>
+```
+
+**Arguments:**
+- `source` - Path to the local dataset directory
+- `destination` - Hugging Face Hub repository (e.g., `username/dataset-name`)
+
+**Example:**
+```bash
+python push.py audio/scp-frogs bioamla/scp-frogs
+```
+
 # Licenses
 All metadata files in this repository contain licensing and attribution. The included license_generator.py file generates a LICENSE.
 - Parses CSV files with required fields: `file_name`, `attr_id`, `attr_lic`, `attr_url`, `attr_note`
