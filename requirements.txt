@@ -1,3 +1,5 @@
-datasets 
+datasets
+torch
+torchcodec 
 huggingface_hub
 librosa
