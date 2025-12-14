@@ -1,9 +1,9 @@
 # BioAMLA Datasets
 
-## Datasets
+## Annotated Datasets
 - [audio/scp-frogs](audio/scp-frogs/): A very small audio set built for environmental sound analyis at Steele Creek Park in Bristol TN. Currently consisting of 11 species of frogs. Dataset has been initially developed to support The Frogs of Steele Creek Park. This is a work in progress. 
 
-## Externally Hosted Datasets
+## Externally Hosted Raw Data
 - [Steele Creek Park Wetlands, Bristol, TN 2023](external/steele-creek-park-2023-raw/README.md) : 
 This raw audio dataset contains 2822 wav/mp3 files collected from five locations in Steele Creek Park from Feb. through Sept. 2023. 
 - [Braulio Carillo National Park/ La Selva Research Station, Costa Rica 2024](external/costa-rica-2024-raw/README) :
