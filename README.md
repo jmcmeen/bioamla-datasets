@@ -59,6 +59,18 @@ python license_generator.py metadata.csv -o LICENSE.txt --preview
 python license_generator.py metadata.csv -o LICENSE.txt --validate-only
 ```
 
+**Generate licenses for all datasets in a folder:**
+```bash
+python license_generator.py --audio-dir audio/
+```
+
+This scans the specified directory for subdirectories containing a `metadata.csv` file and generates a `LICENSE` file in each dataset directory.
+
+**With template file for batch processing:**
+```bash
+python license_generator.py --audio-dir audio/ -t templates/license_template.txt
+```
+
 ## CSV Format:
 
 Your CSV file should have these columns:
