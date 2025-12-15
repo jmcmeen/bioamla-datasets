@@ -1,4 +1,4 @@
-file_name,split,target,category,attr_id,attr_lic,attr_url,attr_note
+file_name,split,target,label,attr_id,attr_lic,attr_url,attr_note
 lithobates_catesbeianus/110932-0.wav,train,65979,lithobates_catesbeianus,ML110932,Non-Commercial-Permission,https://macaulaylibrary.org/asset/110932,modified clip from orginal source
 lithobates_catesbeianus/110932-1.wav,train,65979,lithobates_catesbeianus,ML110932,Non-Commercial-Permission,https://macaulaylibrary.org/asset/110932,modified clip from orginal source
 lithobates_catesbeianus/110932-2.wav,train,65979,lithobates_catesbeianus,ML110932,Non-Commercial-Permission,https://macaulaylibrary.org/asset/110932,modified clip from orginal source
