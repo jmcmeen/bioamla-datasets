@@ -1,3 +1,15 @@
+---
+license: cc-by-4.0
+task_categories:
+  - audio-classification
+tags:
+  - biology
+  - bioacoustics
+  - environmental-sound
+  - frogs
+pretty_name: SCP Frogs Small
+---
+
 | TaxaID | Scientific Name | Common Name |
 |----|-----------------|-------------|
 | 24268 | Pseudacris crucifer | Spring Peeper |
