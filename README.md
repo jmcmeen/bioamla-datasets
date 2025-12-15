@@ -1,7 +1,9 @@
 # BioAMLA Datasets
 
 ## Annotated Datasets
-- [audio/scp-frogs](audio/scp-frogs/): A very small audio set built for environmental sound analyis at Steele Creek Park in Bristol TN. Currently consisting of 11 species of frogs. Dataset has been initially developed to support The Frogs of Steele Creek Park. This is a work in progress. 
+- [audio/scp-frogs-small](audio/scp-frogs/): A very small audio set built for environmental sound analyis at Steele Creek Park in Bristol TN. Currently consisting of 11 species of frogs. Initially built to test workflows for the bioamla package
+
+- [audio/scp-frogs-inat-v1](audio/scp-frogs-inat-v1/): A larger frog dataset pulled from iNaturalist for Steele Creek Park. This dataset has not been edited and contains mixed length files.
 
 ## Externally Hosted Raw Data
 - [Steele Creek Park Wetlands, Bristol, TN 2023](external/steele-creek-park-2023-raw/README.md) : 
@@ -10,97 +12,4 @@ This raw audio dataset contains 2822 wav/mp3 files collected from five locations
 This raw audio dataset contains 601 wav/mp3 files (600 hours) collected from five locations at Braulio Carillo National Park, Costa Rica from July 9th - 24th, 2024.
 
 # Licenses
-All metadata files in this repository contain licensing and attribution. The included license_generator.py file generates a LICENSE.
-- Parses CSV files with required fields: `file_name`, `attr_id`, `attr_lic`, `attr_url`, `attr_note`
-- Data validation and error handling
-- Whitespace cleaning and empty row handling
-- Creates neatly formatted attributions for each file
-- Optional template file prepending
-- UTF-8 encoding support
-
-## Usage Examples:
-
-**Basic usage:**
-```bash
-python license_generator.py metadata.csv -o LICENSE.txt
-```
-
-**With template file:**
-```bash
-python license_generator.py metadata.csv -o LICENSE.txt -t license_template.txt
-```
-
-**Preview CSV structure:**
-```bash
-python license_generator.py metadata.csv -o LICENSE.txt --preview
-```
-
-**Validate CSV only:**
-```bash
-python license_generator.py metadata.csv -o LICENSE.txt --validate-only
-```
-
-**Generate licenses for all datasets in a folder:**
-```bash
-python license_generator.py --audio-dir audio/
-```
-
-This scans the specified directory for subdirectories containing a `metadata.csv` file and generates a `LICENSE` file in each dataset directory.
-
-**With template file for batch processing:**
-```bash
-python license_generator.py --audio-dir audio/ -t templates/license_template.txt
-```
-
-## CSV Format:
-
-Your CSV file should have these columns:
-```csv
-file_name,attr_id,attr_lic,attr_url,attr_note
-background_music.wav,"John Smith","CC BY 4.0","https://example.com/music","Background music for intro"
-sound_effect.wav,"Jane Doe","MIT License","https://sounds.com/effect","Button click sound"
-```
-
-## Sample Output:
-
-The generated license file will look like:
-```
-LICENSE AND ATTRIBUTION FILE
-================================================================================
-Generated on: 2025-06-20 14:30:15
-Total files: 2
-================================================================================
-
-1. File: background_music.wav
---------------------------
-Attribution ID: John Smith
-License: CC BY 4.0
-Source URL: https://example.com/music
-Notes: Background music for intro
-
-2. File: sound_effect.wav
------------------------
-Attribution ID: Jane Doe
-License: MIT License
-Source URL: https://sounds.com/effect
-Notes: Button click sound
-
-================================================================================
-END OF ATTRIBUTIONS
-================================================================================
-```
-
-## Template File Support:
-
-If you specify a template file with `-t`, its content will be prepended to the license file. For example, if your template contains:
-```
-MY PROJECT LICENSE
-==================
-
-This project uses various third-party assets.
-Please see the attributions below for details.
-
-All original code is licensed under MIT License.
-```
-
-This will appear at the top of your license file, followed by the individual attributions.
+All metadata files in this repository contain licensing and attribution for audio files. 
