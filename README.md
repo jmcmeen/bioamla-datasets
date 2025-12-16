@@ -15,4 +15,8 @@ This raw audio dataset contains 601 wav/mp3 files (600 hours) collected from fiv
 
 ## Licenses
 
-All metadata files in this repository contain licensing and attribution for audio files. 
+All metadata files in this repository contain licensing and attribution for audio files and were generated using the bioamla package
+
+``` bash
+bioamla dataset license ./audio/esc-50/ --metadata-filename metadata.csv -t ./templates/esc50_license_template -o LICENSE
+```
