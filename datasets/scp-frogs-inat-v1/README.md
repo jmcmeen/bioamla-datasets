@@ -14,3 +14,5 @@ pretty_name: SCP Frogs iNaturalist v1
 # SCP Frogs iNaturalist v1
 
 A larger frog dataset pulled from iNaturalist for Steele Creek Park. This dataset has not been edited and contains mixed length files.
+
+**Also available on Hugging Face:** [bioamla/scp-frogs-inat-v1](https://huggingface.co/datasets/bioamla/scp-frogs-inat-v1)
