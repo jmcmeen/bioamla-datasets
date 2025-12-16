@@ -10,6 +10,14 @@ tags:
 pretty_name: SCP Frogs Small
 ---
 
+# SCP Frogs Small
+
+A small audio dataset of 11 frog species from Steele Creek Park, Bristol, TN. Built for testing BioAMLA workflows.
+
+**Also available on Hugging Face:** [bioamla/scp-frogs-small](https://huggingface.co/datasets/bioamla/scp-frogs-small)
+
+## Species
+
 | TaxaID | Scientific Name | Common Name |
 |----|-----------------|-------------|
 | 24268 | Pseudacris crucifer | Spring Peeper |
