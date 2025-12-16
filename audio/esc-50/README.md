@@ -4,6 +4,8 @@ This is a reorganized copy of the **ESC-50 dataset** created by Karol J. Piczak.
 
 **Original dataset:** https://github.com/karolpiczak/ESC-50
 
+**Also available on Hugging Face:** [ashraq/esc50](https://huggingface.co/datasets/ashraq/esc50)
+
 ## Dataset Overview
 
 The ESC-50 dataset is a labeled collection of 2000 environmental audio recordings suitable for benchmarking methods of environmental sound classification. The dataset consists of 5-second-long recordings organized into 50 semantic classes (40 examples per class) arranged into 5 major categories:
