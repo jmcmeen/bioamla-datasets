@@ -6,13 +6,12 @@ A curated collection of environmental audio datasets for bioacoustics research a
 
 ```text
 bioamla-datasets/
-├── audio/                    # Annotated/curated audio datasets
-│   ├── esc-50/              # 2,000 environmental sounds, 50 categories
-│   ├── scp-frogs-small/     # 110 frog recordings, 11 species
-│   └── scp-frogs-inat-v1/   # 1,087 frog recordings from iNaturalist
-├── external/                 # Raw/externally hosted datasets
-│   ├── steele-creek-park-2023-raw/
-│   └── costa-rica-2024-raw/
+├── audio/                           # Annotated/curated audio datasets
+│   ├── esc-50/                      # 2,000 environmental sounds, 50 categories
+│   ├── scp-frogs-small/             # 110 frog recordings, 11 species
+│   └── scp-frogs-inat-v1/           # 1,087 frog recordings from iNaturalist / raw/labeled             
+│   ├── steele-creek-park-2023-raw/  # Raw/externally hosted dataset
+│   └── costa-rica-2024-raw/  # Raw/externally hosted dataset
 └── templates/                # License attribution templates
 ```
 
@@ -23,14 +22,8 @@ bioamla-datasets/
 | [ESC-50](audio/esc-50/) | 2,000 clips | Environmental Sound Classification - 50 categories across animals, nature, human sounds, domestic, and urban noises. 5-second clips at 44.1 kHz. | CC-BY-NC 3.0 |
 | [SCP Frogs Small](audio/scp-frogs-small/) | 110 clips | 11 frog species from Steele Creek Park, Bristol, TN. Built for testing BioAMLA workflows. | CC-BY-4.0 |
 | [SCP Frogs iNat v1](audio/scp-frogs-inat-v1/) | 1,087 clips | Frog recordings from iNaturalist for Steele Creek Park. Mixed-length, unedited files. | CC-BY-4.0 |
-
-## Externally Hosted Raw Data
-
-
-| Dataset | Size | Description |
-|---------|------|-------------|
-| [Steele Creek Park 2023](external/steele-creek-park-2023-raw/README.md) | 2,822 files (~2,809 hours) | Field recordings from 5 locations in Bristol, TN. Feb-Sept 2023. |
-| [Braulio Carillo / La Selva 2024](external/costa-rica-2024-raw/README.md) | 601 files (~600 hours) | Field recordings from 5 locations in Costa Rica. July 2024. |
+| [Steele Creek Park 2023](external/steele-creek-park-2023-raw/README.md) | 2,822 files (~2,809 hours) | Field recordings from 5 locations in Bristol, TN.Feb-Sept 2023. | CC-BY-NC 4.0 |
+| [Braulio Carillo / La Selva 2024](external/costa-rica-2024-raw/README.md) | 601 files (~600 hours) | Field recordings from 5 locations in Costa Rica. July 2024. | CC-BY-NC 4.0 |
 
 ## Getting Started
 
