@@ -25,8 +25,8 @@ license: ## Regenerate $(DIR)/LICENSE from metadata (TEMPLATE=... to override th
 manifest: ## Write $(DIR)/dataset.json (label vocabulary, counts, splits)
 	@$(BIOAMLA) dataset manifest $(DIR)
 
-push: ## Push $(DIR) to Hugging Face as $(HF_REPO) (PRIVATE=1 for a private repo)
-	@$(BIOAMLA) catalogs hf push-dataset $(DIR) $(HF_REPO) $(if $(PRIVATE),--private,--public)
+push: ## Push $(DIR) to Hugging Face as $(HF_REPO), keeping its README (PRIVATE=1 for a private repo)
+	@$(BIOAMLA) catalogs hf push-dataset $(DIR) $(HF_REPO) --no-card $(if $(PRIVATE),--private,--public)
 
 
 remix: ## Build build/<NAME> from remixes/<NAME>.toml: make remix NAME=esc-50-animals
