@@ -8,13 +8,15 @@ A resampled (44.1 KHz, 16-bit depth, mono) version of this dataset lives on Hugg
 
 ## Locations
 
+Coordinates are rounded to 0.01° (about 1 km).
+
 - La Selva Research Station 
-  - Research Swamp (<a href="https://maps.app.goo.gl/ht5VPh18kBmkEW2K6">10°25'58.1"N 84°00'29.5"W</a>)
-  - CCA Trail (<a href="https://maps.app.goo.gl/VSPcD1pTzFJFM4D48">10°25'43.7"N 84°00'17.4"W</a>)
-  - CCC Trail (<a href="https://maps.app.goo.gl/nqhsky1YT819911G6">10°25'31.8"N 84°00'37.2"W</a>)
+  - Research Swamp (10.43°N, 84.01°W)
+  - CCA Trail (10.43°N, 84.00°W)
+  - CCC Trail (10.43°N, 84.01°W)
 - Braulio Carillo National Park
-  - El Ceibo Site 1 (<a href="https://maps.app.goo.gl/e3NLA6BfmEPq4vXk7">10°19'31.1"N 84°04'34.7"W</a>)
-  - El Ceibo Site 2 (<a href="https://maps.app.goo.gl/JaVQgcEN69Xtxvt58">10°19'04.6"N 84°04'26.6"W</a>)
+  - El Ceibo Site 1 (10.33°N, 84.08°W)
+  - El Ceibo Site 2 (10.32°N, 84.07°W)
 
 ## Known Issues
 

@@ -11,11 +11,13 @@ This dataset is currently hosted on Google Drive(<a href="https://drive.google.c
 
 ## Locations
 
-- Wetlands 1 (<a href=""></a>)
-- Wetlands 2 (<a href=""></a>)
-- Lake Ridge Trail (<a href=""></a>)
-- Golf Course (<a href=""></a>)
-- Off Trail Pond (<a href=""></a>)
+Five recorder sites within the park; coordinates to follow, rounded to 0.01°.
+
+- Wetlands 1
+- Wetlands 2
+- Lake Ridge Trail
+- Golf Course
+- Off Trail Pond
 
 ## Known Issues
 

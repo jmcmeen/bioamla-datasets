@@ -1,0 +1,8 @@
+# ESC-50 restricted to its ten animal classes.
+[remix]
+name = "esc-50-animals"
+source = "../datasets/esc-50"
+keep = [
+  "dog", "rooster", "pig", "cow", "frog",
+  "cat", "hen", "insects", "sheep", "crow",
+]
