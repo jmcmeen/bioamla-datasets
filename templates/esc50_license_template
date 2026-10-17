@@ -1,7 +1,11 @@
 # ESC-50: Dataset for Environmental Sound Classification
 
+Original dataset by Karol J. Piczak:
 https://github.com/karoldvl/ESC-50/
 https://dx.doi.org/10.7910/DVN/YDEPUT
+
+This copy was built from the Hugging Face mirror published by ashraq:
+https://huggingface.co/datasets/ashraq/esc50
 
 ## Dataset license
 
