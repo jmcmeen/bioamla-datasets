@@ -76,8 +76,11 @@ ESC-50 is used under CC BY-NC 3.0. If you use it, please cite:
 > *Proceedings of the 23rd ACM International Conference on Multimedia*,
 > Brisbane, Australia, 2015. DOI: [10.1145/2733373.2806390](http://dx.doi.org/10.1145/2733373.2806390)
 
-Its clips derive from recordings shared on [Freesound.org](https://freesound.org/);
-full attribution is in [datasets/esc-50/LICENSE](datasets/esc-50/LICENSE).
+The copy here was built from the Hugging Face mirror
+[ashraq/esc50](https://huggingface.co/datasets/ashraq/esc50), published by
+[ashraq](https://huggingface.co/ashraq). Its clips derive from recordings shared on
+[Freesound.org](https://freesound.org/); full attribution is in
+[datasets/esc-50/LICENSE](datasets/esc-50/LICENSE).
 The iNaturalist clips are credited per recordist in that dataset's
 `metadata.csv` and `LICENSE`.
 

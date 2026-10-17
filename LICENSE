@@ -1,8 +1,24 @@
-# BioAMLA DataSets
-# https://github.com/jmcmeen/bioamla-datasets
+# BioAMLA Datasets
 
-# Code / Software
-The code in this repostiory is licensed under Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0/).
+https://github.com/jmcmeen/bioamla-datasets
 
-## Attribution and License Details
-All audio clips in this repository retain their original licensing as detailed in each dataset.
+## Metadata and documentation
+
+The metadata files (`metadata.csv`, `dataset.json`), READMEs, recipes and
+templates in this repository are licensed under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0,
+https://creativecommons.org/licenses/by/4.0/). Credit "BioAMLA Datasets,
+https://github.com/jmcmeen/bioamla-datasets" when you reuse them.
+
+## Audio
+
+Audio clips are not covered by the licence above. Each clip keeps the
+licence of its original recording, recorded per clip in that dataset's
+`metadata.csv` (`attr_lic`, with the recordist in `attr_id` and the source
+in `attr_url`) and summarised in that dataset's own `LICENSE` file:
+
+- `datasets/esc-50/LICENSE`: ESC-50, CC BY-NC 3.0 overall, per-clip Freesound licences
+- `datasets/scp-frogs-inat-v1/LICENSE`: iNaturalist recordings, CC BY-NC / CC BY / CC0 per clip
+
+Datasets whose audio is hosted elsewhere (Hugging Face, Google Drive) state
+their licence in their README.

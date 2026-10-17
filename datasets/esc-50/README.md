@@ -1,10 +1,14 @@
 # ESC-50: Dataset for Environmental Sound Classification (Modified)
 
-This is a reorganized copy of the **ESC-50 dataset** created by Karol J. Piczak.
+This is a reorganized copy of the **ESC-50 dataset** created by Karol J. Piczak,
+prepared from the Hugging Face mirror published by
+[ashraq](https://huggingface.co/ashraq).
 
 **Original dataset:** https://github.com/karolpiczak/ESC-50
+**Hugging Face mirror this copy was built from:** [ashraq/esc50](https://huggingface.co/datasets/ashraq/esc50)
 
-**Also available on Hugging Face:** [ashraq/esc50](https://huggingface.co/datasets/ashraq/esc50)
+If you need ESC-50 itself rather than this reorganized layout, use one of
+those two sources directly.
 
 ## Dataset Overview
 
@@ -46,7 +50,6 @@ esc-50/
 ├── metadata.csv          # Metadata with attribution fields
 ├── LICENSE               # Per-clip licensing/attribution details
 ├── README.md             # This file
-├── README_old.md         # Original README
 ├── dog/                  # Audio files organized by category
 │   ├── 1-100032-A-0.wav
 │   └── ...
@@ -70,7 +73,9 @@ Per-clip attributions are available in the [LICENSE](LICENSE) file.
 
 ## Citation
 
-If you use this dataset, please cite the original work:
+If you use this dataset, please cite the original work, and credit
+[ashraq/esc50](https://huggingface.co/datasets/ashraq/esc50) as the mirror this
+copy was built from:
 
 > K. J. Piczak. **ESC: Dataset for Environmental Sound Classification**. *Proceedings of the 23rd Annual ACM Conference on Multimedia*, Brisbane, Australia, 2015.
 >
