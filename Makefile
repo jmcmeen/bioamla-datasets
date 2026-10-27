@@ -1,7 +1,7 @@
 # Dataset tasks for bioamla-datasets. Each target wraps a `bioamla dataset`
 # command; set DS=<name> to pick a directory under datasets/ (default esc-50).
-# Use BIOAMLA='uv run --project ~/repos/laborae/projects/bioamla bioamla' to
-# run against a development checkout instead of the installed package.
+# Use BIOAMLA='uv run --project /path/to/bioamla bioamla' to run against a
+# development checkout instead of the installed package.
 
 .DEFAULT_GOAL := help
 .PHONY: help stats license manifest push remix lfs-check

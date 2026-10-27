@@ -57,8 +57,8 @@ make push DS=esc-50           # push a dataset directory to huggingface.co/bioam
 make remix NAME=esc-50-animals  # build build/esc-50-animals from remixes/esc-50-animals.toml
 ```
 
-Set `BIOAMLA='uv run --project ~/repos/laborae/projects/bioamla bioamla'` to
-use a development checkout of bioamla instead of the installed package.
+Set `BIOAMLA='uv run --project /path/to/bioamla bioamla'` to use a
+development checkout of bioamla instead of the installed package.
 
 ### Remixes
 
